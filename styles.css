@@ -1,0 +1,120 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font: 1.3em 'Libre Franklin', sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#hero {
+	position: relative;
+	background: #000;
+}
+
+#hero-image {
+	width: 100%;
+	display: block;
+	opacity: 0.4;
+}
+
+#hero-content {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding: 20px;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+}
+
+#header-content {
+	flex: 1;
+	max-width: 900px;
+	display: flex;
+	padding: 20px;
+	align-items: center;
+	gap: 2em;
+}
+
+#header-spacer {
+	flex: 1;
+}
+
+#main {
+	margin: 0 auto;
+	padding: 40px;
+	max-width: 800px;
+}
+
+footer {
+	border-top: 1px solid #aaa;
+	margin: 8em 0 0 0;
+	padding: 8em 0 4em 0;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+#disclaimer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	background: #f88;
+	border-bottom: 6px solid #800;
+	box-shadow: 0 10px 20px #0004;
+	display: flex;
+	gap: 1em;
+	padding: 1em;
+}
+
+#disclaimer-content {
+	flex: 1;
+}
+
+#disclaimer h1 {
+	margin: 0;
+	font-size: 2em;
+}
+
+#disclaimer-close-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 4em;
+}
